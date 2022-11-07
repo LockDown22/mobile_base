@@ -1,0 +1,96 @@
+name: mobile_base
+description: mobile base
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc:
+  tuple:
+  freezed_annotation:
+  # JsonParser
+  json_annotation:
+
+  # Http Client
+  dio: 4.0.6
+  webview_flutter: ^3.0.4
+  multi_select_flutter: ^4.1.2
+
+  #Svg Loader
+  flutter_svg:
+
+  # Local Persist
+  shared_preferences:
+
+  # Simple direct Service Locator
+  get_it:
+
+  # A collection of utilities to transform and manipulate streams.
+  stream_transform: ^2.0.0
+
+  # Collections and utilities functions and classes related to collections.
+  collection: ^1.15.0
+
+
+  cupertino_icons: ^1.0.2
+
+  # info
+  package_info_plus: 1.4.3
+  device_info_plus: 6.0.0
+
+  # app bar in main page
+  convex_bottom_bar: ^3.1.0
+
+  # create slider
+  carousel_slider: 4.1.1
+  # save network image to cache
+  cached_network_image: 3.2.1
+  flutter_local_notifications: 9.1.4
+  pretty_dio_logger:
+
+  intl:
+
+  #show Alert
+  rflutter_alert: 2.0.4
+
+  flutter_chat_ui: 1.6.4
+
+  flutter_chat_bubble: ^2.0.0
+
+  badges: 2.0.3
+
+  #take photo or pick image from gallery
+  image_picker: 0.8.6
+
+  numeric_keyboard: 1.1.0
+  flutter_html: ^3.0.0-alpha.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable:
+  freezed:
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.1.0
+  pin_code_fields: ^7.4.0
+  rxdart: ^0.27.5
+  flutter_secure_storage: 6.0.0
+  encrypt: 5.0.1
+
+
+flutter:
+  uses-material-design: true
+  #  assets:
+  #    - assets/icons/
+  #    - assets/images/
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/Gotham-Medium.otf
