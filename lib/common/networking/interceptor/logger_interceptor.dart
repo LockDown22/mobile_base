@@ -10,5 +10,6 @@ class LoggerInterceptor extends PrettyDioLogger {
     responseHeader: kDebugMode ? true : false,
     error: kDebugMode ? true : false,
     compact: kDebugMode ? true : false,
+
   );
 }
