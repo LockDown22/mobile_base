@@ -37,6 +37,13 @@ dependencies:
   # Collections and utilities functions and classes related to collections.
   collection: ^1.15.0
 
+  cloud_firestore: ^3.4.3
+  firebase_analytics: ^9.3.0
+  firebase_core: ^1.20.0
+  firebase_crashlytics: ^2.8.6
+  firebase_database: ^9.1.0
+  firebase_messaging: ^12.0.1
+  firestore_ui: 1.24.0
 
   cupertino_icons: ^1.0.2
 
